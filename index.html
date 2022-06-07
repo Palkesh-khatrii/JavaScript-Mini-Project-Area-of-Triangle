@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Triangle</title>
+    <link rel='stylesheet' href='index.css' />
+    <script src ="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="parent-container">
+            <div class="child-container">
+                <h2>Enter the following details to calculate the Area of Triangle</h2>               
+                    <div class="base-container">
+                        <label for="base">Base</label>
+                        <input type="number" id="base" placeholder="Enter the Base" required>
+                    </div>
+                    <div class="height-container">
+                        <label for="height">Height</label>
+                        <input type="number" placeholder="Enter the height" id="height" required>
+                    </div>
+                    <button onclick="AreaOfTriangle()" type="submit" class="submit">Submit</button>
+            </div>
+        </div>
+
+        <div >
+            <p>
+                Area of Triangle: 
+            </p>
+            <div id="Display_Area">
+                <span id="display"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
